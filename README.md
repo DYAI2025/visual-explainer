@@ -41,11 +41,10 @@ git clone https://github.com/nicobailon/visual-explainer.git ~/.claude/skills/vi
 # or paste its contents into your system prompt
 ```
 
-For Pi, restart after cloning. To get the slash commands (`/diff-review`, `/plan-review`, etc.), copy the prompt templates and install the [pi-prompt-template-model](https://github.com/nicobailon/pi-prompt-template-model) extension:
+For Pi, restart after cloning. To get the slash commands (`/diff-review`, `/plan-review`, etc.), copy the prompt templates:
 
 ```bash
 cp ~/.pi/agent/skills/visual-explainer/prompts/*.md ~/.pi/agent/prompts/
-pi install npm:pi-prompt-template-model
 ```
 
 If you have [surf-cli](https://github.com/nicobailon/surf-cli) installed, the skill can also generate illustrations via Gemini Nano Banana Pro and embed them in pages. The agent detects surf automatically and skips image generation if it's not there.

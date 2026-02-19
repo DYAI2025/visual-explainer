@@ -1,8 +1,7 @@
 ---
 description: Generate a visual HTML diff review — before/after architecture comparison with code review analysis
-skill: visual-explainer
 ---
-Generate a comprehensive visual diff review as a self-contained HTML page.
+Load the visual-explainer skill, then generate a comprehensive visual diff review as a self-contained HTML page.
 
 Follow the visual-explainer skill workflow. Read the reference template, CSS patterns, and mermaid theming references before generating. Use a GitHub-diff-inspired aesthetic with red/green before/after panels, but vary fonts and palette from previous diagrams.
 

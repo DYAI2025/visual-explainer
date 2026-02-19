@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1] - 2026-02-19
+
+- Prompts no longer require the `pi-prompt-template-model` extension — each prompt now explicitly loads the skill itself
+- Added "Writing Valid Mermaid" section to `libraries.md` (quoting special chars, simple IDs, max node count, arrow styles, pipe escaping)
+- Fixed mobile scroll offset in `responsive-nav.md` — section headings now clear the sticky nav bar via `scroll-margin-top`
+- Added video preview to README
+
 ## [0.1.0] - 2026-02-16
 
 Initial release.
